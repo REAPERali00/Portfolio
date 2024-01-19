@@ -118,19 +118,19 @@ img {
   padding: 2rem 0 4rem;
 }
 
-.section__title {
+.section_title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section__subtitle {
+.section_subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
 }
 
-.section__title,
-.section__subtitle {
+.section_title,
+.section_subtitle {
   text-align: center;
 }
 
@@ -157,10 +157,31 @@ img {
 
 /*==================== NAV ====================*/
 
+.nav {
+  max-width: 968px;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_logo,
+.nav_toggle {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+.nav_logo:hover {
+  color: var(--first-color);
+}
+
+.nav_toggle {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
 /* show menu */
-
 /* Active link */
-
 /* Change background header */
 
 /*==================== HOME ====================*/
