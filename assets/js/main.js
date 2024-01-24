@@ -106,7 +106,7 @@ let swiperPortfolio = new Swiper(".port_container", {
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonail = new Swiper(".test_container", {
   loop: true,
-  grabCurson: true,
+  grabCursor: true,
   spaceBetween: 48,
 
   pagination: {
