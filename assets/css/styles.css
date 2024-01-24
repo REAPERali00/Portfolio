@@ -1026,6 +1026,9 @@ img {
   .test_description {
     text-align: center;
   }
+  .nav_menu {
+    height: 30vh;
+  }
 }
 /* For medium devices */
 @media screen and (min-width: 568px) {
@@ -1051,6 +1054,9 @@ img {
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
+  }
+  .nav_menu {
+    height: fit-content;
   }
 }
 
