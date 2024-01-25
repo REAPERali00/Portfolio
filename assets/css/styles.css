@@ -14,6 +14,8 @@
   --first-color-second: hsl(var(--hue-color), 69%, 41%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 94%, 35%);
+  --first-color-darker: hsl(var(--hue-color), 50%, 35%);
+
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
@@ -187,7 +189,7 @@ img {
 /*==================== NAV ====================*/
 
 .nav {
-  max-width: 968px;
+  max-width: 900px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -215,8 +217,9 @@ img {
     bottom: -100%;
     left: 0;
     width: 100%;
-    background-color: var(--body-color);
-    padding: 2rem 1.5rem, 4rem;
+    background: (var(--hue-color), 60%, 99%, 0.5);
+    backdrop-filter: blur(50px);
+    padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
@@ -264,7 +267,7 @@ img {
 
 /* Active link */
 .active-link {
-  color: var(--first-color);
+  color: var(--first-color-darker);
 }
 
 /* Change background header */
@@ -1026,9 +1029,6 @@ img {
   .test_description {
     text-align: center;
   }
-  .nav_menu {
-    height: 30vh;
-  }
 }
 /* For medium devices */
 @media screen and (min-width: 568px) {
@@ -1054,9 +1054,6 @@ img {
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
-  }
-  .nav_menu {
-    height: fit-content;
   }
 }
 
