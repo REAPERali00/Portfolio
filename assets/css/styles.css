@@ -217,7 +217,7 @@ img {
     bottom: -100%;
     left: 0;
     width: 100%;
-    background: (var(--hue-color), 60%, 99%, 0.5);
+    background: rgba(var(--hue-color), 60%, 99%, 0.5);
     backdrop-filter: blur(50px);
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
@@ -392,7 +392,7 @@ img {
 }
 
 .button--small {
-  padding: 0.75rem 1remk;
+  padding: 0.75rem 1rem;
 }
 
 .button--link {
@@ -716,7 +716,7 @@ img {
 .port_img {
   width: 256px;
   border-radius: 0.5rem;
-  justify-self: centerk;
+  justify-self: center;
 }
 
 .port_title {
@@ -1103,7 +1103,7 @@ img {
     row-gap: 5rem;
   }
   .home_content {
-    padding: 5.5rem;
+    padding: 3.5rem;
     column-gap: 2rem;
   }
   .home_blob {
@@ -1200,6 +1200,10 @@ img {
   }
   .home_blob {
     width: 320px;
+  }
+  .home_content {
+    width: 70vw;
+    justify-content: center;
   }
   .home_social {
     transform: translateX(-6rem);
