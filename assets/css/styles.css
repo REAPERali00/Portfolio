@@ -714,14 +714,34 @@ img {
 }
 
 .port_img {
-  width: 256px;
+  border-radius: 0.5rem;
+  max-width: 256px;
+  max-height: 256px;
+  width: auto;
+  height: auto;
   border-radius: 0.5rem;
   justify-self: center;
+}
+
+.port_img_quick {
+  border-radius: 0.5rem;
+  justify-self: center;
+  max-width: 100%;
+  max-height: 320px;
 }
 
 .port_title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
+}
+
+.port_link {
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+.port_link:hover {
+  color: var(--first-color-lighter);
 }
 
 .port_description {
