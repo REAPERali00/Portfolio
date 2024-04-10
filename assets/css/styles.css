@@ -410,11 +410,12 @@ img {
   width: 200px;
   border-radius: 0.5rem;
   justify-self: center;
-  align-self: center;
+  align-self: flex-start;
 }
 
 .about_description {
   text-align: center;
+  line-height: 1.6;
   margin-bottom: var(--mb-2-5);
 }
 
@@ -1070,10 +1071,15 @@ img {
   .footer_container {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .qual_sections {
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
+  }
+
+  .about_description {
+    text-align: left;
   }
 }
 
@@ -1137,12 +1143,14 @@ img {
   }
   .about_container {
     column-gap: 5rem;
+    grid-template-columns: 1fr 1.2 fr;
   }
   .about_img {
     width: 350px;
   }
   .about_description {
     text-align: initial;
+    line-height: 1.9;
   }
   .about_info {
     justify-content: space-between;
