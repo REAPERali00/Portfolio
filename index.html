@@ -1,705 +1,841 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1HNTV8R3D4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
+      gtag("config", "G-1HNTV8R3D4");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="./assets/icons/favicon.png" type="image/png" />
+    <title>Alireza Jadidi - Software Engineer</title>
+  </head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1HNTV8R3D4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Alireza</a>
 
-  gtag('config', 'G-1HNTV8R3D4');
-</script>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
-  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="icon" href="./assets/icons/favicon.png" type="image/png">
-  <title>Alireza Jadidi - Software Engineer</title>
-</head>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link"
+                ><i class="uil uil-estate nav_icon"></i>Home</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link"
+                ><i class="uil uil-user nav_icon"></i>about</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link"
+                ><i class="uil uil-file-alt nav_icon"></i>Skills</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link"
+                ><i class="uil uil-briefcase-alt nav_icon"></i>Services</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link"
+                ><i class="uil uil-image nav_icon"></i>Portfolio</a
+              >
+            </li>
 
-<body>
-  <!--==================== HEADER ====================-->
-  <header class="header" id="header">
-    <nav class="nav container">
-      <a href="#" class="nav_logo">Alireza</a>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link"
+                ><i class="uil uil-message nav_icon"></i>Contact me</a
+              >
+            </li>
+          </ul>
 
-      <div class="nav_menu" id="nav-menu">
-        <ul class="nav_list grid">
-          <li class="nav_item">
-            <a href="#home" class="nav_link active-link"><i class="uil uil-estate nav_icon"></i>Home</a>
-          </li>
-          <li class="nav_item">
-            <a href="#about" class="nav_link"><i class="uil uil-user nav_icon"></i>about</a>
-          </li>
-          <li class="nav_item">
-            <a href="#skills" class="nav_link"><i class="uil uil-file-alt nav_icon"></i>Skills</a>
-          </li>
-          <li class="nav_item">
-            <a href="#services" class="nav_link"><i class="uil uil-briefcase-alt nav_icon"></i>Services</a>
-          </li>
-          <li class="nav_item">
-            <a href="#portfolio" class="nav_link"><i class="uil uil-image nav_icon"></i>Portfolio</a>
-          </li>
-
-          <li class="nav_item">
-            <a href="#contact" class="nav_link"><i class="uil uil-message nav_icon"></i>Contact me</a>
-          </li>
-        </ul>
-
-        <i class="uil uil-times nav_close" id="nav-close"></i>
-      </div>
-
-      <nav class="nav_btns">
-        <!-- Theme Change Button -->
-        <i class="uil uil-moon change-theme" id="theme-button"></i>
-
-        <div class="nav_toggle" id="nav-toggle">
-          <i class="uil uil-apps"></i>
+          <i class="uil uil-times nav_close" id="nav-close"></i>
         </div>
-      </nav>
-    </nav>
-  </header>
 
-  <!--==================== MAIN ====================-->
-  <main class="main">
-    <!--==================== HOME ====================-->
-    <section class="home section" id="home">
-      <div class="home_container container grid">
-        <div class="home_content grid">
-          <div class="home_social">
-            <a target="_blank" href="https://www.linkedin.com/in/alireza-jadidi/" class="home_social-icon"><i
-                class="uil uil-linkedin-alt"></i></a><a href="https://github.com/REAPERali00" target="_blank"
-              class="home_social-icon"><i class="uil uil-github-alt"></i></a>
+        <nav class="nav_btns">
+          <!-- Theme Change Button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
           </div>
+        </nav>
+      </nav>
+    </header>
 
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_content grid">
+            <div class="home_social">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/alireza-jadidi/"
+                class="home_social-icon"
+                ><i class="uil uil-linkedin-alt"></i></a
+              ><a
+                href="https://github.com/REAPERali00"
+                target="_blank"
+                class="home_social-icon"
+                ><i class="uil uil-github-alt"></i
+              ></a>
+            </div>
 
-          <div class="home_img">
-            <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink">
-              <mask id="mask0" mask-type="alpha">
-                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+            <div class="home_img">
+              <svg
+                class="home_blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
           130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
           97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-          0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-              </mask>
-              <g mask="url(#mask0)">
-                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+          0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
           165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
           129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-          -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                <image class="home_blob-img" x="10" y="-20" xlink:href="./assets/img/profile/prof_2.png" />
-              </g>
-            </svg>
+          -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home_blob-img"
+                    x="10"
+                    y="-20"
+                    xlink:href="./assets/img/profile/prof_2.png"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home_data">
+              <h1 class="home_title">Hi, I'm Alireza</h1>
+              <h3 class="home_subtitle">Full Stack Developer</h3>
+              <p class="home_descritpion">
+                CET Honors Graduate with strong problem-solving skills,
+                Proficient in back end development
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact Me<i class="uil uil-message button_icon"></i>
+              </a>
+            </div>
           </div>
-          <div class="home_data">
-            <h1 class="home_title">Hi, I'm Alireza</h1>
-            <h3 class="home_subtitle">Full Stack Developer</h3>
-            <p class="home_descritpion"> CET Honors Graduate with strong problem-solving skills,
-              Proficient in back end development</p>
-            <a href="#contact" class="button button--flex">
-              Contact Me<i class="uil uil-message button_icon"></i>
+
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll-button button--flex">
+              <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+              <span class="home_scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home_scroll-arrow"></i>
             </a>
           </div>
         </div>
+      </section>
 
-        <div class="home_scroll">
-          <a href="#about" class="home_scroll-button button--flex">
-            <i class="uil uil-mouse-alt home_scroll-mouse"></i>
-            <span class="home_scroll-name">Scroll down</span>
-            <i class="uil uil-arrow-down home_scroll-arrow"></i>
-          </a>
-        </div>
-      </div>
-    </section>
+      <!--==================== ABOUT ====================-->
+      <!-- TODO: fix the about section  -->
+      <section class="about section" id="about">
+        <h2 class="section_title">About Me</h2>
+        <span class="section_subtitle">My introduction</span>
 
-    <!--==================== ABOUT ====================-->
-    <!-- TODO: fix the about section  -->
-    <section class="about section" id="about">
-      <h2 class="section_title">About Me</h2>
-      <span class="section_subtitle">My introduction</span>
+        <div class="about_container container grid">
+          <img src="assets/img/about/about.jpg" alt="about" class="about_img" />
 
-      <div class="about_container container grid">
-        <img src="assets/img/about/about.jpg" alt="about" class="about_img" />
-
-        <div class="about_data">
-          <p class="about_description">
-            From overcoming an initial setback in C++ to graduating with honors in Computer Engineering, my journey has
-            been fueled by a passion for coding and problem-solving. At Algonquin College, I mentor aspiring developers,
-            and outside the classroom, I'm immersed in the latest tech trends. Eager to apply my back-end expertise and
-            collaborative spirit, I'm looking for opportunities to create impactful software solutions with Node.js,
-            Java, and C++.
-          </p>
-          <div class="about_info">
-            <div>
-              <span class="about_info-title">01+</span>
-              <span class="about_info-name">
-                Years <br />
-                experience</span>
-            </div>
-
-            <div>
+          <div class="about_data">
+            <p class="about_description">
+              From overcoming an initial setback in C++ to graduating with
+              honors in Computer Engineering, my journey has been fueled by a
+              passion for coding and problem-solving. At Algonquin College, I
+              mentor aspiring developers, and outside the classroom, I'm
+              immersed in the latest tech trends. Eager to apply my back-end
+              expertise and collaborative spirit, I'm looking for opportunities
+              to create impactful software solutions with Node.js, Java, and
+              C++.
+            </p>
+            <div class="about_info">
               <div>
-                <span class="about_info-title">15+</span>
-                <span class="about_info-name">Completed <br />
-                  projects</span>
+                <span class="about_info-title">01+</span>
+                <span class="about_info-name">
+                  Years <br />
+                  experience</span
+                >
               </div>
-            </div>
 
-            <!-- <div>
+              <div>
+                <div>
+                  <span class="about_info-title">15+</span>
+                  <span class="about_info-name"
+                    >Completed <br />
+                    projects</span
+                  >
+                </div>
+              </div>
+
+              <!-- <div>
               <span class="about_info-title">0-</span>
               <span class="about_info-name">Companies <br />
                 worked</span>
             </div> -->
-          </div>
-
-
-          <div class="about_buttons">
-            <a download="" href="assets/pdf/Alireza-CV.pdf" class="button button--flex">
-              Download CV<i class="uil uil-download-alt button_icon"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--==================== SKILLS ====================-->
-    <section class="skills section" id="skills">
-      <h2 class="section_title">Skills</h2>
-      <span class="section_subtitle">My technical level</span>
-
-      <div class="skills_container container grid">
-        <div>
-          <!--==================== SKILLS-1 ====================-->
-          <div class="skills_content skills_open">
-            <div class="skills_header">
-              <i class="uil uil-brackets-curly skills_icon"></i>
-
-              <div>
-                <h1 class="skills_title">Frontend development</h1>
-                <span class="skills_subtitle">Less then 1 year</span>
-              </div>
-
-              <i class="uil uil-angle-down skills_arrow"></i>
             </div>
 
-            <div class="skills_list grid">
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">HTML/Css</h3>
-                  <span class="skills_number">80%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_html"> </span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">Flutter</h3>
-                  <span class="skills_number">70%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_flutter"> </span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-
-                <div class="skills_titles">
-                  <h3 class="skills_name">JavaScript</h3>
-                  <span class="skills_number">70%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_js"> </span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">React</h3>
-                  <span class="skills_number">70%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_react"> </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!--==================== SKILLS-2 ====================-->
-          <div class="skills_content skills_close">
-            <div class="skills_header">
-              <i class="uil uil-server-network skills_icon"></i>
-
-              <div>
-                <h1 class="skills_title">Backend development</h1>
-                <span class="skills_subtitle">More than 2 years</span>
-              </div>
-
-              <i class="uil uil-angle-down skills_arrow"></i>
-            </div>
-
-            <div class="skills_list grid">
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">Node Js</h3>
-                  <span class="skills_number">80%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_node"> </span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">.Net</h3>
-                  <span class="skills_number">70%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_net"> </span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">JEE</h3>
-                  <span class="skills_number">70%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_jee"> </span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">SQL</h3>
-                  <span class="skills_number">60%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_sql"> </span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">PHP</h3>
-                  <span class="skills_number">50%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_php"> </span>
-                </div>
-              </div>
-                
+            <div class="about_buttons">
+              <a
+                download=""
+                href="assets/pdf/Alireza-CV.pdf"
+                class="button button--flex"
+              >
+                Download CV<i class="uil uil-download-alt button_icon"></i>
+              </a>
             </div>
           </div>
         </div>
+      </section>
 
-        <div>
-          <!--==================== SKILLS-3 ====================-->
-          <div class="skills_content skills_close">
-            <div class="skills_header">
-              <i class="uil uil-swatchbook skills_icon"></i>
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <span class="section_subtitle">My technical level</span>
 
-              <div>
-                <h1 class="skills_title">Programming Languages</h1>
-                <span class="skills_subtitle">More than 3 years</span>
-              </div>
-
-              <i class="uil uil-angle-down skills_arrow"></i>
-            </div>
-
-            <div class="skills_list grid">
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">Java</h3>
-                  <span class="skills_number">90%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_java"> </span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">C</h3>
-                  <span class="skills_number">80%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_c"> </span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">C++</h3>
-                  <span class="skills_number">70%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_cpp"> </span>
-                </div>
-              </div>
-
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">Dart</h3>
-                  <span class="skills_number">60%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_dart"> </span>
-                </div>
-              </div>
-                
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">Python</h3>
-                  <span class="skills_number">50%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_python"> </span>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--==================== QUALIFICATION ====================-->
-    <section class="qual section">
-      <h2 class="section_title">Qualification</h2>
-      <span class="section_subtitle">My personal journey</span>
-
-      <div class="qual_container container">
-        <div class="qual_tabs">
-          <div class="qual_button button--flex qual_active" data-target="#education">
-            <i class="uil uil-graduation-cap qual_icon"></i> Education
-          </div>
-
-          <div class="qual_button button--flex" data-target="#work">
-            <i class="uil uil-briefcase-alt qual_icon"></i> Work
-          </div>
-        </div>
-        <div class="qual_sections">
-          <!--==================== QUALIFICATION CONTENT 1 ====================-->
-          <div class="qual_content qual_active" data-content id="education">
-            <!--==================== QUALIFICATION 1====================-->
-            <div class="qual_data">
-              <div>
-                <h3 class="qual_title">Computer Engineering Technology</h3>
-                <span class="qual_subtitle">Algonquin College</span>
-                <div class="qual_calendar">
-                  <i class="uil uil-calendar-alt">2021-2023 </i>
-                </div>
-              </div>
-              <div>
-                <span class="qual_rounder"></span><span class="qual_line"></span>
-              </div>
-            </div>
-
-            <!--==================== QUALIFICATION 2====================-->
-
-            <div class="qual_data">
-              <div></div>
-
-              <div>
-                <span class="qual_rounder"></span><span class="qual_line"></span>
-              </div>
-
-              <div>
-                <h3 class="qual_title">Engineering Science program</h3>
-                <span class="qual_subtitle">Simon Fraser University</span>
-                <div class="qual_calendar">
-                  <i class="uil uil-calendar-alt">2018 - 2021</i>
-                </div>
-              </div>
-            </div>
-
-            <!--==================== QUALIFICATION 3====================-->
-            <div class="qual_data">
-              <div>
-                <h3 class="qual_title">Office Assistant</h3>
-                <span class="qual_subtitle">Brighton College</span>
-                <div class="qual_calendar">
-                  <i class="uil uil-calendar-alt">Sep 2018 - Dec 2018</i>
-                </div>
-              </div>
-              <div>
-                <span class="qual_rounder"></span>
-                <!-- <span class="qual_line"></span> -->
-              </div>
-            </div>
-
-
-          </div>
-
-          <!--==================== QUALIFICATION CONTENT 2 ====================-->
-          <div class="qual_content" data-content id="work">
-            <!--==================== QUALIFICATION 1====================-->
-            <div class="qual_data">
-              <div>
-                <h3 class="qual_title">Computer Coaching</h3>
-                <span class="qual_subtitle">Algonquin College</span>
-                <div class="qual_calendar">
-                  <i class="uil uil-calendar-alt">2023 - present</i>
-                </div>
-              </div>
-              <div>
-                <span class="qual_rounder"></span><span class="qual_line"></span>
-              </div>
-            </div>
-
-            <!--==================== QUALIFICATION 2====================-->
-
-            <div class="qual_data">
-              <div></div>
-
-              <div>
-                <span class="qual_rounder"></span><span class="qual_line"></span>
-              </div>
-
-              <div>
-                <h3 class="qual_title">Senior Peer Tutoring</h3>
-                <span class="qual_subtitle">Algonquin College</span>
-                <div class="qual_calendar">
-                  <i class="uil uil-calendar-alt">2023-present</i>
-                </div>
-              </div>
-            </div>
-
-            <!--==================== QUALIFICATION 3====================-->
-            <div class="qual_data">
-              <div>
-                <h3 class="qual_title">Peer Tutoring</h3>
-                <span class="qual_subtitle">Algonquin College</span>
-                <div class="qual_calendar">
-                  <i class="uil uil-calendarr-alt">2022-present</i>
-                </div>
-              </div>
-              <div>
-                <span class="qual_rounder"></span>
-                <!-- <span class="qual_line"></span> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--==================== SERVICES ====================-->
-    <section class="services section" id="services">
-      <h2 class="section_title">Services</h2>
-      <span class="section_subtitle">What I offer</span>
-
-      <div class="services_container container grid">
-        <!--==================== SERVICES 1 ====================-->
-        <div class="services_content">
+        <div class="skills_container container grid">
           <div>
-            <i class="uil uil-web-grid services_icon"></i>
-            <h3 class="services_title">Application <br> Development</h3>
-            <span class="button button--flex button--small button--link services_button">
-              View More <i class="uil uil-arrow-right button_icon"></i>
-            </span>
+            <!--==================== SKILLS-1 ====================-->
+            <div class="skills_content skills_open">
+              <div class="skills_header">
+                <i class="uil uil-brackets-curly skills_icon"></i>
 
-            <div class="services_modal">
-              <div class="services_modal-content">
-                <h4 class="services_modal-title">
-                  Application <br />
-                  Development
-                </h4>
-                <i class="uil uil-times services_modal-close"></i>
+                <div>
+                  <h1 class="skills_title">Frontend development</h1>
+                  <span class="skills_subtitle">Less then 1 year</span>
+                </div>
 
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
 
-                <ul class="services_modal-services grid">
-                  <li class="services_modal-service">
-                    <i class="uil uil-check-circle services_modal-icon"></i>
-                    <p>Developed Tax Grocery Calculator, an Android app featuring dynamic tax options and item
-                      management, highlighting skills in mobile application development.</p>
-                  </li>
-                  <li class="services_modal-service">
-                    <i class="uil uil-check-circle services_modal-icon"></i>
-                    <p>Created the Num Puz game using Java Swing, demonstrating expertise in crafting engaging user
-                      experiences with robust functionality.</p>
-                  </li>
-                  <li class="services_modal-service">
-                    <i class="uil uil-check-circle services_modal-icon"></i>
-                    <p>Engineered a comprehensive Nagini Compiler in C, showcasing my ability to build complex software
-                      systems from the ground up.</p>
-                  </li>
-                </ul>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">HTML/Css</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_html"> </span>
+                  </div>
+                </div>
 
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Flutter</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_flutter"> </span>
+                  </div>
+                </div>
 
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">JavaScript</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_js"> </span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">React</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_react"> </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== SKILLS-2 ====================-->
+            <div class="skills_content skills_close">
+              <div class="skills_header">
+                <i class="uil uil-server-network skills_icon"></i>
+
+                <div>
+                  <h1 class="skills_title">Backend development</h1>
+                  <span class="skills_subtitle">More than 2 years</span>
+                </div>
+
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
+
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Node Js</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_node"> </span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">.Net</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_net"> </span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">JEE</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_jee"> </span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">SQL</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_sql"> </span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">PHP</h3>
+                    <span class="skills_number">50%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_php"> </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <!--==================== SERVICES 2 ====================-->
-        <div class="services_content">
           <div>
-            <i class="uil uil-arrow services_icon"></i>
-            <h3 class="services_title">
-              Frontend <br />
-              Development
-            </h3>
-            <span class="button button--flex button--small button--link services_button">
-              View More <i class="uil uil-arrow-right button_icon"></i>
-            </span>
+            <!--==================== SKILLS-3 ====================-->
+            <div class="skills_content skills_close">
+              <div class="skills_header">
+                <i class="uil uil-swatchbook skills_icon"></i>
 
-            <div class="services_modal">
-              <div class="services_modal-content">
-                <h4 class="services_modal-title">
-                  Frontend <br />
-                  Development
-                </h4>
-                <i class="uil uil-times services_modal-close"></i>
+                <div>
+                  <h1 class="skills_title">Programming Languages</h1>
+                  <span class="skills_subtitle">More than 3 years</span>
+                </div>
 
-                <ul class="services_modal-services grid">
-                  <li class="services_modal-service">
-                    <i class="uil uil-check-circle services_modal-icon"></i>
-                    <p>Contributed to a bridal wear customization platform using React, managing both UI development and
-                      integration with backend services using Node.js.</p>
-                  </li>
-                  <li class="services_modal-service">
-                    <i class="uil uil-check-circle services_modal-icon"></i>
-                    <p>Implemented interactive elements and state management in the Heartbeat Display project, utilizing
-                      React for a dynamic frontend experience.</p>
-                  </li>
-                </ul>
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
 
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Java</h3>
+                    <span class="skills_number">90%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_java"> </span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">C</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_c"> </span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">C++</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_cpp"> </span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Dart</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_dart"> </span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Python</h3>
+                    <span class="skills_number">50%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_python"> </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <!--==================== SERVICES 3 ====================-->
-        <div class="services_content">
-          <div>
-            <i class="uil uil-pen services_icon"></i>
-            <h3 class="services_title">
-              Backend <br />
-              Development
-            </h3>
-            <span class="button button--flex button--small button--link services_button">
-              View More <i class="uil uil-arrow-right button_icon"></i>
-            </span>
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qual section">
+        <h2 class="section_title">Qualification</h2>
+        <span class="section_subtitle">My personal journey</span>
 
-            <div class="services_modal">
-              <div class="services_modal-content">
-                <h4 class="services_modal-title">
-                  Backend<br />
-                  Development
-                </h4>
-                <i class="uil uil-times services_modal-close"></i>
-                <ul class="services_modal-services grid">
-                  <li class="services_modal-service">
-                    <i class="uil uil-check-circle services_modal-icon"></i>
-                    <p>Designed and developed backend functionality for a subscription-based service, handling database
-                      interactions and user authentication using C# and .NET.</p>
-                  </li>
-                  <li class="services_modal-service">
-                    <i class="uil uil-check-circle services_modal-icon"></i>
-                    <p>Built an exam scheduler application in C, utilizing bitwise manipulation to manage scheduling
-                      logic, demonstrating backend problem-solving capabilities.</p>
-                  </li>
-                  <li class="services_modal-service">
-                    <i class="uil uil-check-circle services_modal-icon"></i>
-                    <p>Implemented backend services for a temperature display system using Node-RED and Arduino,
-                      managing API development and data processing.</p>
-                  </li>
-                </ul>
+        <div class="qual_container container">
+          <div class="qual_tabs">
+            <div
+              class="qual_button button--flex qual_active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qual_icon"></i> Education
+            </div>
 
+            <div class="qual_button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qual_icon"></i> Work
+            </div>
+          </div>
+          <div class="qual_sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div class="qual_content qual_active" data-content id="education">
+              <!--==================== QUALIFICATION 1====================-->
+              <div class="qual_data">
+                <div>
+                  <h3 class="qual_title">Computer Engineering Technology</h3>
+                  <span class="qual_subtitle">Algonquin College</span>
+                  <div class="qual_calendar">
+                    <i class="uil uil-calendar-alt">2021-2023 </i>
+                  </div>
+                </div>
+                <div>
+                  <span class="qual_rounder"></span
+                  ><span class="qual_line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2====================-->
+
+              <div class="qual_data">
+                <div></div>
+
+                <div>
+                  <span class="qual_rounder"></span
+                  ><span class="qual_line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qual_title">Engineering Science program</h3>
+                  <span class="qual_subtitle">Simon Fraser University</span>
+                  <div class="qual_calendar">
+                    <i class="uil uil-calendar-alt">2019 - 2021</i>
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 3====================-->
+              <div class="qual_data">
+                <div>
+                  <h3 class="qual_title">Office Assistant</h3>
+                  <span class="qual_subtitle">Brighton College</span>
+                  <div class="qual_calendar">
+                    <i class="uil uil-calendar-alt">Sep 2018 - Dec 2018</i>
+                  </div>
+                </div>
+                <div>
+                  <span class="qual_rounder"></span>
+                  <!-- <span class="qual_line"></span> -->
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qual_content" data-content id="work">
+              <!--==================== QUALIFICATION 1====================-->
+              <div class="qual_data">
+                <div>
+                  <h3 class="qual_title">Computer Coach</h3>
+                  <span class="qual_subtitle">Algonquin College</span>
+                  <div class="qual_calendar">
+                    <i class="uil uil-calendar-alt">Nov 2023-present</i>
+                  </div>
+                </div>
+                <div>
+                  <span class="qual_rounder"></span
+                  ><span class="qual_line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2====================-->
+              <div class="qual_data">
+                <div></div>
+                <div>
+                  <span class="qual_rounder"></span
+                  ><span class="qual_line"></span>
+                </div>
+                <div>
+                  <h3 class="qual_title">Tutor Specialist</h3>
+                  <span class="qual_subtitle">Algonquin College</span>
+                  <div class="qual_calendar">
+                    <i class="uil uil-calendar-alt">May 2024-Aug 2024</i>
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 3====================-->
+
+              <div class="qual_data">
+                <div>
+                  <h3 class="qual_title">Senior Tutor</h3>
+                  <span class="qual_subtitle">Algonquin College</span>
+                  <div class="qual_calendar">
+                    <i class="uil uil-calendar-alt">Jun 2023-May 20204</i>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <span class="qual_rounder"></span>
+                    <span class="qual_line"></span>
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 4====================-->
+              <div class="qual_data">
+                <div></div>
+                <div>
+                  <!-- <span class="qual_line"></span> -->
+                  <span class="qual_rounder"></span>
+                </div>
+                <div>
+                  <h3 class="qual_title">Peer Tutor</h3>
+                  <span class="qual_subtitle">Algonquin College</span>
+                  <div class="qual_calendar">
+                    <i class="uil uil-calendarr-alt">Jan 2023-May 2024</i>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!--==================== PORTFOLIO ====================-->
-    <section class="portfolio section" id="portfolio">
-      <h2 class="section_title">Portfolio</h2>
-      <span class="section_subtitle">Most recent work</span>
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section_title">Services</h2>
+        <span class="section_subtitle">What I offer</span>
 
-      <div class="port_container container swiper-container">
-        <div class="swiper-wrapper">
-          <!--==================== PORTFOLIO 1 ====================-->
-          <div class="port_content grid swiper-slide">
-            <img src="assets/img/projects/quickaid.jpg" alt="port-img1" class="port_img_quick" />
-            <div class="port_data">
-              <h3 class="port_title">Quick Aid</h3>
-              <p class="port_description"> Empowering First Responders: AI-Assisted First Aid & Autonomous Ambulance
-                Dispatch | <a href="https://devpost.com/software/quickaid-djpbgz" class="port_link"
-                  target="_blank">uOttahack 6</a> </p>
+        <div class="services_container container grid">
+          <!--==================== SERVICES 1 ====================-->
+          <div class="services_content">
+            <div>
+              <i class="uil uil-web-grid services_icon"></i>
+              <h3 class="services_title">
+                Application <br />
+                Development
+              </h3>
+              <span
+                class="button button--flex button--small button--link services_button"
+              >
+                View More <i class="uil uil-arrow-right button_icon"></i>
+              </span>
 
-              <a href="https://quickaid.tech/" class="button button--flex button--small port_button" target="_blank">
-                Demo <i class="uil uil-arrow-right button_icon"></i>
-              </a>
-              <a href="https://github.com/jwt2706/QuickAid" class="button button--flex button--small port_button"
-                target="_blank">
-                Code <i class="uil uil-arrow-right button_icon"></i>
-              </a>
+              <div class="services_modal">
+                <div class="services_modal-content">
+                  <h4 class="services_modal-title">
+                    Application <br />
+                    Development
+                  </h4>
+                  <i class="uil uil-times services_modal-close"></i>
+
+                  <ul class="services_modal-services grid">
+                    <li class="services_modal-service">
+                      <i class="uil uil-check-circle services_modal-icon"></i>
+                      <p>
+                        Developed Tax Grocery Calculator, an Android app
+                        featuring dynamic tax options and item management,
+                        highlighting skills in mobile application development.
+                      </p>
+                    </li>
+                    <li class="services_modal-service">
+                      <i class="uil uil-check-circle services_modal-icon"></i>
+                      <p>
+                        Created the Num Puz game using Java Swing, demonstrating
+                        expertise in crafting engaging user experiences with
+                        robust functionality.
+                      </p>
+                    </li>
+                    <li class="services_modal-service">
+                      <i class="uil uil-check-circle services_modal-icon"></i>
+                      <p>
+                        Engineered a comprehensive Nagini Compiler in C,
+                        showcasing my ability to build complex software systems
+                        from the ground up.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
 
-          <!--==================== PORTFOLIO 2 ====================-->
-          <div class="port_content grid swiper-slide">
-            <img src="assets/img/projects/puzzle.webp" alt="port-img2" class="port_img" />
-            <div class="port_data">
-              <h3 class="port_title">Num Puz</h3>
-              <p class="port_description">Num Puz is a desktop puzzle game developed with JavaFX. It interacts with a
-                Node.js server and MongoDB database for real-time rankings, hosted on Vercel.</p>
+          <!--==================== SERVICES 2 ====================-->
+          <div class="services_content">
+            <div>
+              <i class="uil uil-arrow services_icon"></i>
+              <h3 class="services_title">
+                Frontend <br />
+                Development
+              </h3>
+              <span
+                class="button button--flex button--small button--link services_button"
+              >
+                View More <i class="uil uil-arrow-right button_icon"></i>
+              </span>
 
-              <a href="https://number-puzzle-phi.vercel.app/" class="button button--flex button--small port_button"
-                target="_blank">
-                Demo <i class="uil uil-arrow-right button_icon"></i>
-              </a>
-              <a href="https://github.com/REAPERali00/Number_Puzzle"
-                class="button button--flex button--small port_button" target="_blank">
-                Code <i class="uil uil-arrow-right button_icon"></i>
-              </a>
+              <div class="services_modal">
+                <div class="services_modal-content">
+                  <h4 class="services_modal-title">
+                    Frontend <br />
+                    Development
+                  </h4>
+                  <i class="uil uil-times services_modal-close"></i>
+
+                  <ul class="services_modal-services grid">
+                    <li class="services_modal-service">
+                      <i class="uil uil-check-circle services_modal-icon"></i>
+                      <p>
+                        Contributed to a bridal wear customization platform
+                        using React, managing both UI development and
+                        integration with backend services using Node.js.
+                      </p>
+                    </li>
+                    <li class="services_modal-service">
+                      <i class="uil uil-check-circle services_modal-icon"></i>
+                      <p>
+                        Implemented interactive elements and state management in
+                        the Heartbeat Display project, utilizing React for a
+                        dynamic frontend experience.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
 
-          <!--==================== PORTFOLIO 3 ====================-->
-          <div class="port_content grid swiper-slide">
-            <img src="assets/img/projects/bridal.png" alt="port-img3" class="port_img" />
-            <div class="port_data">
-              <h3 class="port_title">Bridal Wear</h3>
-              <p class="port_description"> MERN stack project, worked on a web application to design a custom clothing
-                application for our client, abby greenberg.</p>
+          <!--==================== SERVICES 3 ====================-->
+          <div class="services_content">
+            <div>
+              <i class="uil uil-pen services_icon"></i>
+              <h3 class="services_title">
+                Backend <br />
+                Development
+              </h3>
+              <span
+                class="button button--flex button--small button--link services_button"
+              >
+                View More <i class="uil uil-arrow-right button_icon"></i>
+              </span>
 
-              <a href="https://bridal-wear-frontend-react.vercel.app/"
-                class="button button--flex button--small port_button" target="_blank">
-                Demo <i class="uil uil-arrow-right button_icon"></i>
-              </a>
-              <a href="https://github.com/REAPERali00/Bridal_Wear" class="button button--flex button--small port_button"
-                target="_blank">
-                Code <i class="uil uil-arrow-right button_icon"></i>
-              </a>
+              <div class="services_modal">
+                <div class="services_modal-content">
+                  <h4 class="services_modal-title">
+                    Backend<br />
+                    Development
+                  </h4>
+                  <i class="uil uil-times services_modal-close"></i>
+                  <ul class="services_modal-services grid">
+                    <li class="services_modal-service">
+                      <i class="uil uil-check-circle services_modal-icon"></i>
+                      <p>
+                        Designed and developed backend functionality for a
+                        subscription-based service, handling database
+                        interactions and user authentication using C# and .NET.
+                      </p>
+                    </li>
+                    <li class="services_modal-service">
+                      <i class="uil uil-check-circle services_modal-icon"></i>
+                      <p>
+                        Built an exam scheduler application in C, utilizing
+                        bitwise manipulation to manage scheduling logic,
+                        demonstrating backend problem-solving capabilities.
+                      </p>
+                    </li>
+                    <li class="services_modal-service">
+                      <i class="uil uil-check-circle services_modal-icon"></i>
+                      <p>
+                        Implemented backend services for a temperature display
+                        system using Node-RED and Arduino, managing API
+                        development and data processing.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="swiper-button-next">
-          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-        </div>
-        <div class="swiper-button-prev">
-          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-        </div>
+      </section>
 
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">Portfolio</h2>
+        <span class="section_subtitle">Most recent work</span>
 
-    <!--==================== PROJECT IN MIND ====================-->
-    <section class="project section">
-      <!-- <div class="project_bg">
+        <div class="port_container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="port_content grid swiper-slide">
+              <img
+                src="assets/img/projects/quickaid.jpg"
+                alt="port-img1"
+                class="port_img_quick"
+              />
+              <div class="port_data">
+                <h3 class="port_title">Quick Aid</h3>
+                <p class="port_description">
+                  Empowering First Responders: AI-Assisted First Aid &
+                  Autonomous Ambulance Dispatch |
+                  <a
+                    href="https://devpost.com/software/quickaid-djpbgz"
+                    class="port_link"
+                    target="_blank"
+                    >uOttahack 6</a
+                  >
+                </p>
+
+                <a
+                  href="https://quickaid.tech/"
+                  class="button button--flex button--small port_button"
+                  target="_blank"
+                >
+                  Demo <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+                <a
+                  href="https://github.com/jwt2706/QuickAid"
+                  class="button button--flex button--small port_button"
+                  target="_blank"
+                >
+                  Code <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="port_content grid swiper-slide">
+              <img
+                src="assets/img/projects/puzzle.webp"
+                alt="port-img2"
+                class="port_img"
+              />
+              <div class="port_data">
+                <h3 class="port_title">Num Puz</h3>
+                <p class="port_description">
+                  Num Puz is a desktop puzzle game developed with JavaFX. It
+                  interacts with a Node.js server and MongoDB database for
+                  real-time rankings, hosted on Vercel.
+                </p>
+
+                <a
+                  href="https://number-puzzle-phi.vercel.app/"
+                  class="button button--flex button--small port_button"
+                  target="_blank"
+                >
+                  Demo <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+                <a
+                  href="https://github.com/REAPERali00/Number_Puzzle"
+                  class="button button--flex button--small port_button"
+                  target="_blank"
+                >
+                  Code <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="port_content grid swiper-slide">
+              <img
+                src="assets/img/projects/bridal.png"
+                alt="port-img3"
+                class="port_img"
+              />
+              <div class="port_data">
+                <h3 class="port_title">Bridal Wear</h3>
+                <p class="port_description">
+                  MERN stack project, worked on a web application to design a
+                  custom clothing application for our client, abby greenberg.
+                </p>
+
+                <a
+                  href="https://bridal-wear-frontend-react.vercel.app/"
+                  class="button button--flex button--small port_button"
+                  target="_blank"
+                >
+                  Demo <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+                <a
+                  href="https://github.com/REAPERali00/Bridal_Wear"
+                  class="button button--flex button--small port_button"
+                  target="_blank"
+                >
+                  Code <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== PROJECT IN MIND ====================-->
+      <section class="project section">
+        <!-- <div class="project_bg">
         <div class="project_container container grid">
           <div class="project_data">
             <h2 class="project_title">You have a new Project</h2>
@@ -713,116 +849,120 @@
           <img src="assets/img/project.png" alt="Project-img" class="project_img" />
         </div>
       </div> -->
-    </section>
+      </section>
 
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Contact Me</h2>
+        <span class="section_subtitle">Get in Touch</span>
 
+        <div class="contact_container container grid">
+          <div>
+            <!-- <div class="contact_information"> -->
+            <!--   <i class="uil uil-phone contact_icon"></i> -->
+            <!---->
+            <!--   <div> -->
+            <!--     <h3 class="contact_title">Call Me</h3> -->
+            <!--     <span class="contact_subtitle">911</span> -->
+            <!--   </div> -->
+            <!-- </div> -->
 
-    <!--==================== CONTACT ME ====================-->
-    <section class="contact section" id="contact">
-      <h2 class="section_title">Contact Me</h2>
-      <span class="section_subtitle">Get in Touch</span>
+            <div class="contact_information">
+              <i class="uil uil-envelope contact_icon"></i>
 
-      <div class="contact_container container grid">
-        <div>
-          <!-- <div class="contact_information"> -->
-          <!--   <i class="uil uil-phone contact_icon"></i> -->
-          <!---->
-          <!--   <div> -->
-          <!--     <h3 class="contact_title">Call Me</h3> -->
-          <!--     <span class="contact_subtitle">911</span> -->
-          <!--   </div> -->
-          <!-- </div> -->
+              <div>
+                <h3 class="contact_title">Email Me</h3>
+                <span class="contact_subtitle">jadi0002@algonquinlive.com</span>
+              </div>
+            </div>
 
-          <div class="contact_information">
-            <i class="uil uil-envelope contact_icon"></i>
+            <div class="contact_information">
+              <i class="uil uil-map-marker contact_icon"></i>
 
-            <div>
-              <h3 class="contact_title">Email Me</h3>
-              <span class="contact_subtitle">jadi0002@algonquinlive.com</span>
+              <div>
+                <h3 class="contact_title">Location</h3>
+                <span class="contact_subtitle">Ottawa, ON</span>
+              </div>
             </div>
           </div>
 
-          <div class="contact_information">
-            <i class="uil uil-map-marker contact_icon"></i>
+          <form action="" class="contact_form grid">
+            <div class="contact_inputs grid">
+              <div class="contact_content">
+                <label for="" class="contact_label">Name</label>
+                <input type="text" class="contact_input" />
+              </div>
 
-            <div>
-              <h3 class="contact_title">Location</h3>
-              <span class="contact_subtitle">Ottawa, ON</span>
+              <div class="contact_content">
+                <label for="" class="contact_label">Email</label>
+                <input type="email" class="contact_input" />
+              </div>
             </div>
-          </div>
-        </div>
 
-        <form action="" class="contact_form grid">
-          <div class="contact_inputs grid">
             <div class="contact_content">
-              <label for="" class="contact_label">Name</label>
+              <label for="" class="contact_label">Project</label>
               <input type="text" class="contact_input" />
             </div>
 
             <div class="contact_content">
-              <label for="" class="contact_label">Email</label>
-              <input type="email" class="contact_input" />
+              <label for="" class="contact_label">Message</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact_input"
+              ></textarea>
             </div>
-          </div>
 
-          <div class="contact_content">
-            <label for="" class="contact_label">Project</label>
-            <input type="text" class="contact_input" />
-          </div>
-
-          <div class="contact_content">
-            <label for="" class="contact_label">Message</label>
-            <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
-          </div>
-
-          <div>
-            <a href="#" class="button button--flex">
-              Send Message <i class="uil uil-message button_icon"></i>
-            </a>
-          </div>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <!--==================== FOOTER ====================-->
-  <footer class="footer">
-    <div class="footer_bg">
-      <div class="footer_container container grid">
-        <div>
-          <h1 class="footer_title">Alireza</h1>
-          <span class="footer_subtitle">Software Developer</span>
+            <div>
+              <a href="#" class="button button--flex">
+                Send Message <i class="uil uil-message button_icon"></i>
+              </a>
+            </div>
+          </form>
         </div>
+      </section>
+    </main>
 
-        <ul class="footer_links">
-          <li><a href="#services" class="footer_link">Services</a></li>
-          <li><a href="#portfolio" class="footer_link">Portfolio</a></li>
-          <li><a href="#contact" class="footer_link">ContactMe</a></li>
-        </ul>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer_bg">
+        <div class="footer_container container grid">
+          <div>
+            <h1 class="footer_title">Alireza</h1>
+            <span class="footer_subtitle">Software Developer</span>
+          </div>
 
-        <!-- <div class="footer_socials"> -->
-        <!--   <a href="https://www.facebook.com/" target="_blank" class="footer_social"> -->
-        <!--     <i class="uil uil-facebook-f"></i> -->
-        <!--   </a> -->
-        <!--   <a href="https://www.instagram.com" target="_blank" class="footer_social"> -->
-        <!--     <i class="uil uil-instagram"></i></a> -->
-        <!--   <a href="https://www.twitter.com" target="_blank" class="footer_social"> -->
-        <!--     <i class="uil uil-twitter-alt"></i></a> -->
-        <!-- </div> -->
+          <ul class="footer_links">
+            <li><a href="#services" class="footer_link">Services</a></li>
+            <li><a href="#portfolio" class="footer_link">Portfolio</a></li>
+            <li><a href="#contact" class="footer_link">ContactMe</a></li>
+          </ul>
 
+          <!-- <div class="footer_socials"> -->
+          <!--   <a href="https://www.facebook.com/" target="_blank" class="footer_social"> -->
+          <!--     <i class="uil uil-facebook-f"></i> -->
+          <!--   </a> -->
+          <!--   <a href="https://www.instagram.com" target="_blank" class="footer_social"> -->
+          <!--     <i class="uil uil-instagram"></i></a> -->
+          <!--   <a href="https://www.twitter.com" target="_blank" class="footer_social"> -->
+          <!--     <i class="uil uil-twitter-alt"></i></a> -->
+          <!-- </div> -->
+        </div>
+        <p class="footer_copy">&#169; 2024 Alireza. All right reserved</p>
       </div>
-      <p class="footer_copy">&#169 2024 Alireza. All right reserved</p>
-    </div>
-  </footer>
+    </footer>
 
-  <!--==================== SCROLL TOP ====================-->
-  <a href="#" class="scrollup" id="scroll-up"><i class="uil uil-arrow-up scrollup_icon"></i></a>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up"
+      ><i class="uil uil-arrow-up scrollup_icon"></i
+    ></a>
 
-  <!--==================== SWIPER JS ====================-->
-  <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
-  <!--==================== MAIN JS ====================-->
-  <script src="assets/js/main.js"></script>
-</body>
-
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
