@@ -984,6 +984,7 @@
           <form
             action="https://formspree.io/f/mzzpqrjz"
             method="post"
+            id="contactForm"
             class="contact_form grid"
           >
             <div class="contact_inputs grid">
@@ -1024,15 +1025,13 @@
               ></textarea>
             </div>
 
-            <button type="submit" class="button button--flex">
-              Send Message <i class="uil uil-message button_icon"></i>
-            </button>
+            <!-- Use a link as the form submitter -->
+            <div>
+              <a href="#" class="button button--flex" id="submitFormLink">
+                Send Message <i class="uil uil-message button_icon"></i>
+              </a>
+            </div>
           </form>
-          <!-- <div> -->
-          <!--   <a href="#" class="button button--flex"> -->
-          <!--     Send Message <i class="uil uil-message button_icon"></i> -->
-          <!--   </a> -->
-          <!-- </div> -->
         </div>
       </section>
     </main>

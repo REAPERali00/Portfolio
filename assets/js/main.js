@@ -183,10 +183,10 @@ const getCurrentIcon = () =>
 if (selectedTheme) {
   // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
   document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
-    darkTheme
+    darkTheme,
   );
   themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](
-    iconTheme
+    iconTheme,
   );
 }
 
@@ -199,3 +199,13 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+/*====================  CONTACT FORM SUBMISSION ====================*/
+
+// JavaScript to trigger form submission on link click
+document
+  .getElementById("submitFormLink")
+  .addEventListener("click", function (e) {
+    e.preventDefault(); // Prevent the default link behavior
+    document.getElementById("contactForm").submit(); // Trigger form submission
+  });
