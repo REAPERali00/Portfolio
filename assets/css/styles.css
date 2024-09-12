@@ -745,14 +745,20 @@ img {
   padding: 0 1.5rem;
 }
 
+/* .port_img { */
+/*   border-radius: 0.5rem; */
+/*   max-width: 256px; */
+/*   max-height: 256px; */
+/*   width: auto; */
+/*   height: auto; */
+/*   border-radius: 0.5rem; */
+/*   justify-self: center; */
+/* } */
 .port_img {
-  border-radius: 0.5rem;
-  max-width: 256px;
-  max-height: 256px;
-  width: auto;
-  height: auto;
-  border-radius: 0.5rem;
-  justify-self: center;
+  width: 100%; /* Make the image take up the full width of its container */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover; /* Ensures the image covers the container and is cropped appropriately */
+  border-radius: 8px;
 }
 
 .port_img_quick {
@@ -782,6 +788,12 @@ img {
 
 .port_button:hover .button_icon {
   transform: translateX(0.25rem);
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.65;
+  cursor: not-allowed;
 }
 
 .swiper-button-prev::after,
