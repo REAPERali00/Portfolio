@@ -991,6 +991,7 @@ img {
   text-align: center;
   columns: var(--text-color-light);
   margin-top: var(--mb-3);
+  color: #fff;
 }
 
 .footer_title,
