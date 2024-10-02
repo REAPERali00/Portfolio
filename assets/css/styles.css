@@ -13,7 +13,7 @@
   --first-color: hsl(var(--hue-color), 69%, 41%);
   --first-color-second: hsl(var(--hue-color), 69%, 41%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 94%, 35%);
+  --first-color-lighter: hsl(var(--hue-color), 96%, 21%);
   --first-color-darker: hsl(var(--hue-color), 50%, 35%);
 
   --title-color: hsl(var(--hue-color), 8%, 15%);
