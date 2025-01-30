@@ -537,7 +537,10 @@ img {
   width: 70%;
 }
 .skills_sql {
-  width: 60%;
+  width: 70%;
+}
+.skills_django {
+  width: 65%;
 }
 
 .skills_java {
@@ -547,13 +550,13 @@ img {
   width: 80%;
 }
 .skills_cpp {
-  width: 70%;
+  width: 60%;
 }
 .skills_dart {
   width: 60%;
 }
 .skills_python {
-  width: 50%;
+  width: 80%;
 }
 
 .skills_close .skills_list {
