@@ -209,3 +209,7 @@ document
     e.preventDefault(); // Prevent the default link behavior
     document.getElementById("contactForm").submit(); // Trigger form submission
   });
+
+/*====================  Copy right Year  ====================*/
+const copyMsg = document.getElementById("copyright");
+copyMsg.textContent = new Date().getFullYear();
