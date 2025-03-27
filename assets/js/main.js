@@ -190,6 +190,25 @@ if (selectedTheme) {
   );
 }
 
+// on page load, check system preference. and change it if it is not already set
+document.addEventListener("DOMContentLoaded", () => {
+  if (
+    window.matchMedia &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches &&
+    selectedTheme !== "dark"
+  ) {
+    document.body.classList.add(darkTheme);
+    themeButton.classList.add(iconTheme);
+  } else if (
+    window.matchMedia &&
+    window.matchMedia("(prefers-color-scheme: light)").matches &&
+    selectedTheme === "dark"
+  ) {
+    document.body.classList.remove(darkTheme);
+    themeButton.classList.remove(iconTheme);
+  }
+});
+
 // Activate / deactivate the theme manually with the button
 themeButton.addEventListener("click", () => {
   // Add or remove the dark / icon theme

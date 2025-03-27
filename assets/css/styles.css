@@ -59,7 +59,7 @@
   --z-modal: 1000;
 
   /*========== services box shadow ==========*/
-  --shadow: rgba(0, 0, 0, 0.19);
+  --shadow: rgba(0, 0, 0, 0.3);
 }
 
 /* Font size for large devices */
@@ -92,7 +92,7 @@ body.dark-theme {
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 
   /*========== services box shadow ==========*/
-  --shadow: rgba(123, 116, 210, 0.3);
+  --shadow: rgba(87, 224, 110, 0.5);
 }
 /*========== Button Dark/Light ==========*/
 
@@ -649,7 +649,7 @@ img {
 }
 
 .qual_button.qual_active {
-  color: var(--first-color);
+  color: var(--accent-color);
 }
 /*==================== SERVICES ====================*/
 .services_container {
@@ -1016,7 +1016,7 @@ img {
   position: fixed;
   right: 1rem;
   bottom: -20%;
-  background-color: var(--accent-color);
+  background-color: var(--first-color-darker);
   opacity: 0.8;
   padding: 0 0.3rem;
   border-radius: 0.4rem;
