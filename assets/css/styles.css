@@ -566,13 +566,22 @@ img {
   width: 80%;
 }
 
+.skills_list {
+  transition:
+    max-height 0.4s ease,
+    opacity 0.4s ease,
+    margin-bottom 0.4s ease;
+}
+
 .skills_close .skills_list {
-  height: 0;
+  max-height: 0;
   overflow: hidden;
+  opacity: 0;
 }
 
 .skills_open .skills_list {
-  height: max-content;
+  opacity: 1;
+  max-height: 500px;
   margin-bottom: var(--mb-2-5);
 }
 
