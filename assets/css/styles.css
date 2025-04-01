@@ -86,7 +86,11 @@ body.dark-theme {
   --title-color: hsl(var(--hue-color), 8%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 75%);
   --input-color: hsl(var(--hue-color), 29%, 16%);
-  --body-color: hsl(var(--hue-color), 28%, 12%);
+  --body-color: hsl(
+    var(--hue-color),
+    28%,
+    12%
+  ); /* this is also kinda nice: #18181B*/
   --container-color: hsl(var(--hue-color), 29%, 16%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
@@ -1119,7 +1123,7 @@ img {
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .home_content {
-    grid-template-columns: max-content 1fr 1fr;
+    grid-template-columns: max-content 2fr 1fr;
   }
   .home_data {
     grid-column: initial;
@@ -1208,10 +1212,11 @@ img {
   }
   .about_container {
     column-gap: 5rem;
-    grid-template-columns: 1fr 1.2 fr;
+    grid-template-columns: 1fr 2fr;
   }
   .about_img {
-    width: 350px;
+    width: 100%;
+    object-fit: cover;
   }
   .about_description {
     text-align: initial;
@@ -1285,17 +1290,17 @@ img {
   }
 }
 /* For large devices */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .header,
   .main,
   .footer_container {
     padding: 0;
   }
   .home_blob {
-    width: 320px;
+    width: 100%;
   }
   .home_content {
-    width: 70vw;
+    max-width: 70vw;
     justify-content: center;
   }
   .home_social {
@@ -1324,5 +1329,8 @@ img {
   }
   .contact_inputs {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .container {
+    max-width: 950px;
   }
 }
