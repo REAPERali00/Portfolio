@@ -1160,6 +1160,7 @@ img {
 @media screen and (min-width: 568px) {
   .home_content {
     grid-template-columns: max-content 2fr 1fr;
+    min-height: 75vh;
   }
   .home_data {
     grid-column: initial;
@@ -1167,6 +1168,7 @@ img {
   .home_img {
     order: 1;
     justify-self: center;
+    width: 250px;
   }
   .about_container,
   .skills_container,
@@ -1234,8 +1236,12 @@ img {
     row-gap: 5rem;
   }
   .home_content {
-    padding: 3.5rem;
+    grid-template-columns: max-content 2fr 1fr;
+    padding: 1.5rem;
     column-gap: 2rem;
+  }
+  .home_img {
+    width: 350px;
   }
   .home_blob {
     width: 270px;
